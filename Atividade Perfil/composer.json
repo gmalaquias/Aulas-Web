@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Mvc\\": "vendor",
+            "Controllers\\" : "Application",
+            "Areas\\": "Application",
+            "Models": "Application",
+            "Helpers": "vendor",
+            "Entities": "Application",
+            "UnitOfWork": "vendor"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
